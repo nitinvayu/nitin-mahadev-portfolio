@@ -27,7 +27,7 @@ const useTypewriter = (text: string, speed = 80, delay = 1500) => {
 };
 
 const Hero = () => {
-  const { displayed, done } = useTypewriter("Software Engineer Intern", 70, 1200);
+  const { displayed, done } = useTypewriter("Software Engineer", 70, 1200);
 
   const stagger = {
     hidden: {},
